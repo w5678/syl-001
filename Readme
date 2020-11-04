@@ -1,0 +1,9 @@
+#2020-11-4
+message-board-app/ a Vue project
+message-board/  a flask project
+
+This is a sample to connect the flask backend and the Vue.js.
+We can learn the Vue structure design and the axios usages here.
+
+
+
