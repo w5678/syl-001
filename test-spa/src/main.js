@@ -5,7 +5,6 @@ import router from "./router";
 new Vue({
   el: "#app",
   render: (h) => h(App),
-  // 挂载路由
   router
 });
 
