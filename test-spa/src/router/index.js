@@ -3,6 +3,7 @@ import Router from "vue-router";
 import Home from "../views/Home.vue";
 import About from "../views/About.vue";
 import Contact from "../views/Contact.vue";
+import Message from "../views/Message.vue";
 
 Vue.use(Router);
 
@@ -20,9 +21,14 @@ const routes = [
     path: "/contact",
     component: Contact,
   },
+  {
+    path: "/message",
+    component: Message,
+  },
 ];
 
 export default new Router({
-  routes, // 这是简写，相当于 routes: routes
+  mode: "history",
+  routes:routes, // 这是简写，相当于 routes: routes
 });
 
